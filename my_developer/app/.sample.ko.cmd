@@ -1,0 +1,1 @@
+cmd_/home/adrizcorp/Downloads/projects/my_developer/app/sample.ko := arm-uclinuxeabi-ld -EL -r  -T /home/adrizcorp/Downloads/linux/scripts/module-common.lds  -o /home/adrizcorp/Downloads/projects/my_developer/app/sample.ko /home/adrizcorp/Downloads/projects/my_developer/app/sample.o /home/adrizcorp/Downloads/projects/my_developer/app/sample.mod.o

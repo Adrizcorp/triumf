@@ -1,0 +1,8 @@
+#!/bin/bash
+chmod 777 ./hola.o
+for i in 0 1 0 1 0 1 0 1 0 1 0
+do
+ ./gpio_test.o "1" "$i"
+ sleep 1
+done & # Run this loop in background.
+
